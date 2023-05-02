@@ -1,0 +1,60 @@
+{{define "home.html"}}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fact about Cats</title>
+</head>
+<style>
+  body {
+    background-color: #eee;
+  }
+
+  article {
+    max-width: 800px;
+    margin: 100px auto;
+    font: normal 12.8571428571px Georgia, serif;
+    font-size: 20px;
+    color: #444;
+  }
+
+  article p {
+    margin-bottom: 18px;
+  }
+
+  article p:first-of-type {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  article:before,
+  article:after {
+    content: "";
+    display: inline-block;
+    position: fixed;
+    height: 90px;
+    width: 600px;
+    top: 0;
+    background-image: (linear-gradient(#eee, #eee 12%, rgba(#eee, 0)));
+    pointer-events: none;
+  }
+
+  article:after {
+    top: auto;
+    bottom: 0;
+    background-image: (linear-gradient(rgba(#eee, 0), #eee 88%, #eee));
+  }
+</style>
+
+<body>
+  <article>
+    <h1> {{index . "factEN"}}</h1>
+    <h1> {{index . "factRU"}}</h1>
+
+    
+  </article>
+
+</body>
+
+</html>
+{{end}}

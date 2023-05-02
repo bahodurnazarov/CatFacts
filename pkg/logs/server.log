@@ -1,0 +1,34 @@
+INFO: 2023/05/01 14:44:37 handler.go:21: github.com/bahodurnazarov/CatFacts/internal/handler
+INFO: 2023/05/01 14:44:42 handler.go:30: dsf
+INFO: 2023/05/01 14:44:44 handler.go:30: dsf
+INFO: 2023/05/01 14:44:45 handler.go:30: dsf
+INFO: 2023/05/01 15:49:23 facts.go:46: 
+INFO: 2023/05/01 15:49:23 home.go:16: 
+INFO: 2023/05/01 15:51:04 facts.go:39: dfdf {"fact":"A female cat will be pregnant for approximately 9 weeks or between 62 and 65 days from conception to delivery.","length":110}
+INFO: 2023/05/01 15:51:04 facts.go:47: 
+INFO: 2023/05/01 15:51:04 home.go:16: 
+INFO: 2023/05/01 15:52:29 facts.go:39: dfdf {"fact":"Cats can be right-pawed or left-pawed.","length":38}
+INFO: 2023/05/01 15:52:29 facts.go:47: Cats can be right-pawed or left-pawed.
+INFO: 2023/05/01 15:52:29 home.go:16: Cats can be right-pawed or left-pawed.
+INFO: 2023/05/01 15:54:03 home.go:15: A cat’s eyesight is both better and worse than humans. It is better because cats can see in much dimmer light and they have a wider peripheral view. It’s worse because they don’t see color as well as humans do. Scientists believe grass appears red to cats.
+INFO: 2023/05/01 16:11:23 home.go:15: A cat can jump 5 times as high as it is tall.
+INFO: 2023/05/01 16:13:27 home.go:15: Most cats had short hair until about 100 years ago, when it became fashionable to own cats and experiment with breeding.
+INFO: 2023/05/01 16:15:08 home.go:15: Polydactyl cats (a cat with 1-2 extra toes on their paws) have this as a result of a genetic mutation. These cats are also referred to as 'Hemingway cats' because writer Ernest Hemingway reportedly owned dozens of them at his home in Key West, Florida.
+INFO: 2023/05/01 16:15:10 home.go:15: A cat has the ability to rotate their ears 180 degrees,with the help of 32 muscles that they use to control them.
+INFO: 2023/05/01 16:15:11 home.go:15: Baking chocolate is the most dangerous chocolate to your cat.
+INFO: 2023/05/01 16:26:21 home.go:17: The average lifespan of an outdoor-only (feral and non-feral) is about 3 years; an indoor-only cat can live 16 years and longer. Some cats have been documented to have a longevity of 34 years.
+INFO: 2023/05/01 16:27:14 home.go:17: Cats have 3 eyelids.
+INFO: 2023/05/01 16:27:24 home.go:17: When a cat chases its prey, it keeps its head level. Dogs and humans bob their heads up and down.
+INFO: 2023/05/01 16:27:47 home.go:17: Cats must have fat in their diet because they can't produce it on their own.
+INFO: 2023/05/01 16:28:25 home.go:17: A 2007 Gallup poll revealed that both men and women were equally likely to own a cat.
+INFO: 2023/05/01 16:28:35 home.go:17: The smallest wildcat today is the Black-footed cat. The females are less than 20 inches (50 cm) long and can weigh as little as 2.5 lbs (1.2 kg).
+INFO: 2023/05/01 16:28:45 home.go:17: Female cats tend to be right pawed, while male cats are more often left pawed. Interestingly, while 90% of humans are right handed, the remaining 10% of lefties also tend to be male.
+INFO: 2023/05/01 16:28:57 home.go:17: In relation to their body size, cats have the largest eyes of any mammal.
+INFO: 2023/05/01 16:29:05 home.go:17: British cat owners spend roughly 550 million pounds yearly on cat food.
+INFO: 2023/05/01 16:41:56 home.go:17: Kittens who are taken along on short, trouble-free car trips to town tend to make good passengers when they get older. They get used to the sounds and motions of traveling and make less connection between the car and the visits to the vet.
+INFO: 2023/05/01 17:11:11 home.go:19: The cat has 500 skeletal muscles (humans have 650).
+INFO: 2023/05/01 17:11:14 home.go:19: The life expectancy of cats has nearly doubled over the last fifty years.
+INFO: 2023/05/01 17:32:02 home.go:19: A cat sees about 6 times better than a human at night, and needs 1/6 the amount of of light that a human does - it has a layer of extra reflecting cells which absorb light.
+INFO: 2023/05/01 17:33:58 home.go:19: Polydactyl cats (a cat with 1-2 extra toes on their paws) have this as a result of a genetic mutation. These cats are also referred to as 'Hemingway cats' because writer Ernest Hemingway reportedly owned dozens of them at his home in Key West, Florida.
+INFO: 2023/05/01 17:34:58 home.go:19: Today there are about 100 distinct breeds of the domestic cat.
+INFO: 2023/05/01 17:36:04 home.go:19: Cats have been domesticated for half as long as dogs have been.
