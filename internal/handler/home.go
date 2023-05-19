@@ -3,7 +3,6 @@ package handler
 import (
 	"html/template"
 	"net/http"
-
 	g "github.com/bahodurnazarov/CatFacts/internal/getFacts"
 	gt "github.com/bas24/googletranslatefree"
 	d "github.com/bahodurnazarov/CatFacts/pkg/db"
@@ -29,6 +28,7 @@ func HomeHandler(c echo.Context) error {
 		}
 	}
 
+
 	err = tmpl.Execute(c.Response().Writer, factEN)
 	if err != nil {
 		lg.Errl.Error(c.Response().Writer, err.Error(), http.StatusInternalServerError)
@@ -40,3 +40,4 @@ func HomeHandler(c echo.Context) error {
 		"factRU": factRU,
 	})
 }
+		
