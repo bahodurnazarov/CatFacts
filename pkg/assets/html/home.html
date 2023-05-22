@@ -1,8 +1,9 @@
-{{define "home.html"}}
 <!DOCTYPE html>
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fact about Cats</title>
 </head>
 <style>
@@ -50,11 +51,9 @@
   <article>
     <h1> {{index . "factEN"}}</h1>
     <h1> {{index . "factRU"}}</h1>
-
-    
+    <img src="{{.image}}">
   </article>
 
 </body>
 
 </html>
-{{end}}
