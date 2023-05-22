@@ -8,6 +8,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"log"
 	"net/http"
+	"os"
 )
 
 var numericKeyboard = tgbotapi.NewReplyKeyboard(
@@ -30,7 +31,8 @@ var fact = tgbotapi.NewReplyKeyboard(
 )
 
 func Bot(c echo.Context) error {
-	bot, err := tgbotapi.NewBotAPI("6263473565:AAEopw_EaoLRP83Io-aniGU2w7m6T1nfcDk")
+	token := os.Getenv("BOT_TOKEN")
+	bot, err := tgbotapi.NewBotAPI(token)
 	if err != nil {
 		lg.Errl.Fatal(err)
 	}

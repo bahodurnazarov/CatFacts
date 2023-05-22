@@ -1,6 +1,7 @@
 package handler
 
 import (
+	fd "github.com/bahodurnazarov/CatFacts/pkg/init"
 	"html/template"
 	"io"
 	"net/http"
@@ -28,6 +29,7 @@ func (t *TemplateRenderer) Render(w io.Writer, name string, data interface{}, c 
 }
 
 func Listen() {
+	fd.Init()
 	e := echo.New()
 	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
 		AllowOrigins: []string{"https://labstack.com", "https://labstack.net"},

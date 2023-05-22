@@ -2,9 +2,8 @@ package db
 
 import (
 	"database/sql"
-	"log"
-
 	_ "github.com/lib/pq" // add this
+	"log"
 )
 
 func ConnDB() *sql.DB {
