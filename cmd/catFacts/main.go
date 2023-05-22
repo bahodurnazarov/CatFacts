@@ -1,11 +1,11 @@
 package main
 
 import (
-	run "github.com/bahodurnazarov/CatFacts/internal/bot"
+	"github.com/bahodurnazarov/CatFacts/internal/Job"
 	"github.com/bahodurnazarov/CatFacts/internal/handler"
 )
 
 func main() {
-	go run.Route()
+	go Job.Route()
 	handler.Listen()
 }

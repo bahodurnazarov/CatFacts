@@ -1,11 +1,13 @@
 package handler
 
 import (
+	fd "github.com/bahodurnazarov/CatFacts/pkg/init"
 	"html/template"
 	"io"
 	"net/http"
 
 	//lg "github.com/bahodurnazarov/CatFacts/pkg/utils"
+	"github.com/bahodurnazarov/CatFacts/internal/bot"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
@@ -27,6 +29,7 @@ func (t *TemplateRenderer) Render(w io.Writer, name string, data interface{}, c 
 }
 
 func Listen() {
+	fd.Init()
 	e := echo.New()
 	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
 		AllowOrigins: []string{"https://labstack.com", "https://labstack.net"},
@@ -39,7 +42,8 @@ func Listen() {
 	e.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!")
 	})
+
+	e.GET("/bot", bot.Bot)
 	e.GET("/home", HomeHandler)
 	e.Logger.Fatal(e.Start(":1323"))
-
 }
