@@ -7,11 +7,11 @@ import (
 )
 
 func main() {
-	Ping()
+	PingPong()
 	go Job.Route()
 	handler.Listen()
 }
 
-func Ping() {
+func PingPong() {
 	fmt.Println("ping-pong")
 }
