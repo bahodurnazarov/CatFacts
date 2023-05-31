@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	Test()
+	Test("Github")
 	go Job.Route()
 	handler.Listen()
 }
