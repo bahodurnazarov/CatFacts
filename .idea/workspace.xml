@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35c99a05-25d9-4e62-b1fb-8c4744ceeea6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/utils/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/utils/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/catFacts/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/catFacts/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program Files/Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,7 +54,9 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/go/prcts_API/CatFacts",
+    "last_opened_file_path": "C:/Users/FirdavsT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
