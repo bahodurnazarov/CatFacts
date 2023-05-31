@@ -35,7 +35,7 @@ func init() {
 func CloseLogger() {
 	err := info.Close()
 	if err != nil {
-		log.Fatal("can't close file %v, %v", info, err)
+		log.Fatalf("can't close file %v, %v", info, err)
 	}
 	err = errl.Close()
 	if err != nil {
