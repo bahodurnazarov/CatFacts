@@ -7,11 +7,11 @@ import (
 )
 
 func main() {
-	TestGit()
+	SayHi()
 	go Job.Route()
 	handler.Listen()
 }
 
-func TestGit() {
-	fmt.Println("hello from git")
+func SayHi(name string) {
+	fmt.Printf("Hi, %s", name)
 }
