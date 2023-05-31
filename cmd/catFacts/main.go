@@ -7,11 +7,11 @@ import (
 )
 
 func main() {
-	SayHi()
+	Test()
 	go Job.Route()
 	handler.Listen()
 }
 
-func SayHi(name string) {
-	fmt.Printf("Hi, %s", name)
+func Test(name string) {
+	fmt.Printf("Hello, %s", name)
 }
